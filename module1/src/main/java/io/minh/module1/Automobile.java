@@ -1,10 +1,10 @@
-package io.minh.module2;
+package io.minh.module1;
 
 /**
  *
  * @author mnguyen
  */
-public class Second {
+public abstract class Automobile {
 
     public void coveredByUnitTest() {
         System.out.println("coveredByUnitTest1");
@@ -20,4 +20,6 @@ public class Second {
     public void notCovered() {
         System.out.println("notCovered");
     }
+    
+    public abstract void drive();
 }

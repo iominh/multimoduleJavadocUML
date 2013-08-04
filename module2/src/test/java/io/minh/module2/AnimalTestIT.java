@@ -2,14 +2,10 @@ package io.minh.module2;
 
 import org.testng.annotations.Test;
 
-/**
- *
- * @author mnguyen
- */
-public class SecondTestIT {
+public class AnimalTestIT {
 
     @Test(groups = "int")
     public void test() {
-        new Second().coveredByIntegrationTest();
+        new Animal().coveredByIntegrationTest();
     }
 }

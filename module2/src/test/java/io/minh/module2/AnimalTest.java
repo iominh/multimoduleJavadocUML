@@ -2,14 +2,10 @@ package io.minh.module2;
 
 import org.testng.annotations.Test;
 
-/**
- *
- * @author mnguyen
- */
-public class SecondTest {
+public class AnimalTest {
 
     @Test(groups = "unit")
     public void test() {
-        new Second().coveredByUnitTest();
+        new Animal().coveredByUnitTest();
     }
 }

@@ -1,10 +1,6 @@
-package io.minh.module1;
+package io.minh.module2;
 
-/**
- *
- * @author mnguyen
- */
-public class First {
+public class Animal {
 
     public void coveredByUnitTest() {
         System.out.println("coveredByUnitTest1");
